@@ -157,7 +157,7 @@ To add a language:
 * add language to section **Supported languages** in README.md (in alphabetical order)
 * add language to keywords in package.json (in alphabetical order)
 * add language to the "unreleased" section of the changelog
-* run `npm install && make test` to make sure that tests are passing
+* run `npm install && npm run test` to make sure that tests are passing
 * open a PR on GitHub
 
 Please do not change the version in package.json, package-lock.json or changelog.md.
